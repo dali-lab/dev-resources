@@ -40,20 +40,15 @@ Note: any `code blocks` are things that should be run in iTerm
 
 ## Starter Projects:
 
-- React Webpack
+- React/Webpack/Babel/Eslint
   - this is a small from scratch starter for react frontend projects
     - [starter howto]( http://cs52.me/assignments/sa4/)
     - [starter repo](https://github.com/dartmouth-cs52/js-react-starter)
-    - react
-    - webpack
-    - babel
-    - eslint
 
-- Expressjs/Mongo
+- Expressjs/Mongo/Babel/Eslint
   - this is a small from scratch starter project for javascript backends
-    - [starter setup](http://cs52.me/assignments/hw5p1/)
+    - [starter howto](http://cs52.me/assignments/hw5p1/)
     - [starter repo](https://github.com/dartmouth-cs52/express-babel-starter)
-    - the stack for this is: Express, Mongo, Babel, eslint
 
 ## Additional Tools:
 
