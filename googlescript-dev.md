@@ -21,9 +21,3 @@ Author: Pat Xu
 - make sure you give the script full permissions by first running it in the Google IDE
 - a lot of errors stem from permission issues. try running the code without any sort of triggers to check if any more permission dialogs pop up
 - use a pre-filled Form link to make testing fast
-
-
-## TODO
-- subtract 17
-- zapier with the email
-- run script on form submission
