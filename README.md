@@ -39,21 +39,16 @@ Note: any `code blocks` are things that should be run in iTerm
 - [Firebase](http://firebase.com) –  backend as a service with SDKs for javascript, node, iOS, android, Python
 
 ## Starter Projects:
-*this section is currently out of date*
 
-- Parse/Backbone/Express [starter project]( https://github.com/dali-lab/ParseStarterApp)
-  - the stack for this is: Parse/Backbone, Express, Facebook, jQuery, Bootstrap
-  - sample app includes:
-    - facebook integration (login and document sharing)
-    - user login and profiles
-    - creating and saving documents to backend
-    - full text search of documents
+- React/Webpack/Babel/Eslint
+  - this is a small from scratch starter for react frontend projects
+    - [starter howto]( http://cs52.me/assignments/sa4/)
+    - [starter repo](https://github.com/dartmouth-cs52/js-react-starter)
 
-- Expressjs/Mongo/React [starter project](  https://github.com/dali-lab/dali-seed):
-  - the stack for this is: Express, Mongo, React, Bootstrap
-  - sample app includes:
-    - user login
-
+- Expressjs/Mongo/Babel/Eslint
+  - this is a small from scratch starter project for javascript backends
+    - [starter howto](http://cs52.me/assignments/hw5p1/)
+    - [starter repo](https://github.com/dartmouth-cs52/express-babel-starter)
 
 ## Additional Tools:
 
