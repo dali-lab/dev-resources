@@ -2,7 +2,7 @@
 
 ##### A guide to a variety of tools that are helpful for devs to improve their workflow
 
-These are mostly for OS X but all are available on linux and, well, if you use Windows talk to a staff person – we have loaner Macs!
+These are mostly for OS X but all are available on linux and, well, if you use Windows then you should talk to a staff person – we have loaner Macs!
 
 Note: any `code blocks` are things that should be run in iTerm
 
