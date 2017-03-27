@@ -21,10 +21,10 @@ Xcode also has a really nice git interface that’s easy to use and can help you
 Merging swift files is the same as merging any other code-based project. The one aspect of iOS dev git flow you need to be careful about is storyboard merge conflicts. The graphical elements of the storyboard are translated into a markup language that is very difficult to debug. To circumvent this problem I would recommend not having more than one person working on a given storyboard file at a time. This is one of the best reasons to break apart your application into multiple storyboard files. 
 
 ##### Commonly used shortcuts;
- * cmd + r to build. Faster than physically hunting for the play button each time.
+ * **cmd + r** to build. Faster than physically hunting for the play button each time.
  * Holding down option and clicking any file will open the file in assistant editor window instead of the main editor window
- * control + command + j to jumpt to the definition of a variable. 
- * comand + shift + o: Open quickly. Similar to fuzzy finder in Atom or Sublime. Much faster when you have a lot of files and you know which one you want. 
+ * **control + command + j** to jump to the definition of a variable. 
+ * **comand + shift + o** to open files quickly. Much faster when you have a lot of files and you know which one you want. 
 
 ### Debugging
 
