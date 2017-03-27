@@ -6,12 +6,10 @@ I’ve only included the essentials in this guide. There is certainly more to sa
 
 ### XCode and Setup
 
+##### Screen
 Use an external monitor! Xcode uses multiple panes and inspector windows that quickly crowd your actual coding space. Using a large external monitor will alleviate this issue and speed up your workflow considerably. 
 
-Here's the screen layout the has worked for me:
-
-TODO: Insert picture
-
+##### Source Control
 Xcode also has a really nice git interface that’s easy to use and can help you handle commits and merges. Get started with that in the 'Source Control' menu. 
 
 Merging: Merging swift files is the same as merging any other code-based project. The one aspect of iOS dev git flow you need to be careful about is storyboard merge conflicts. The graphical elements of the storyboard are translated into a markup language that is very difficult to debug. To circumvent this problem I would recommend not having more than one person working on a given storyboard file at a time. This is one of the best reasons to break apart your application into multiple storyboard files. 
@@ -24,18 +22,22 @@ Merging: Merging swift files is the same as merging any other code-based project
 
 ### Debugging
 
+##### Tutorial
 [Here](https://www.natashatherobot.com/swift-debugging/) is a good tutorial about debugging that will save you much more time than it takes to read. 
 
-Hot top: You can actually add breakpoints to your code AFTER you’ve deployed it to the simulator or to your device. This allows you to print out variables in the console with 'po' without having to put print statements in your code and re-compile. When you’re dealing with 1min+ compile times this will save you hours of dev time. 
+##### Tips
+ * You can actually add breakpoints to your code AFTER you’ve deployed it to the simulator or to your device. This allows you to print out variables in the console with 'po' without having to put print statements in your code and re-compile. When you’re dealing with 1min+ compile times this will save you hours of dev time. 
 
-For some reason Xcode 8 spits out tons of garbage in the console for no reason. Disable it by following the instructions from the top answer [here](http://stackoverflow.com/questions/37800790/hide-strange-unwanted-xcode-8-logs)
+ * For some reason Xcode 8 spits out tons of garbage in the console for no reason. Disable it by following the instructions from the top answer [here](http://stackoverflow.com/questions/37800790/hide-strange-unwanted-xcode-8-logs)
 
 ## Code
 
 ### Misc advice
 
+##### IBOutlets
 Be careful when renaming/removing variables that are attached to storyboards via IBOutlets! If the connection is not also removed your app will crash and you will get a very cryptic “key" error that will take you hours to debug if you haven’t seen it before.
 
+##### Be safe! (Un)Wrap it up!
 Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide considerable code cleanliness improvements over ‘if let’.  
 
 #### Segues
@@ -63,9 +65,10 @@ if let destinationVC = mainStoryboard.instantiateViewController(withIdentifier: 
 
 ## External Libraries and Cocoapods
 
-One word: Cocoapods. If you didn’t know about cocoapods, you’re welcome. Cocoapods gives you easy access to the wealth of open-source libraries available for native iOS development. Get started with the guide here
+##### Cocoapods
+If you didn’t know about cocoapods, you’re welcome. Cocoapods gives you easy access to the wealth of open-source libraries available for native iOS development. Get started with the guide here
 
-Tips
+##### Tips
 * If you’re having trouble understanding how to use a library, download the example app on the library's GitHub page and play around with that in Xcode to see how it works. 
 * Sometimes after running pod install Xcode won’t recognize the new library until you run a clean (shift + command + k or Product -> Clean)
 
@@ -79,17 +82,39 @@ Here are the essentials (aka non-optional for most projects):
 
 **[Alamofire](https://github.com/Alamofire/Alamofire)** - HTTP networking (get, post, etc) in Swift. Basically the industry standard. Use it, learn it, love it. 
 
-**[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - Parse and handle JSON. Handles optionals elegantly. Use this library in conjunction with responses generated from Alamofire. 
+**[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)** - Parse and handle JSON. Handles optionals elegantly. Use this library in conjunction with responses generated from Alamofire. 
 
-**[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)** - Empty table views are bad, ugly, and uninformative. This library fixes all of those issues by handling the “empty table state”. In my opinion handling the blank state is the single best way to elevate the usability and design of your app. Unfortunately, set up is a little tricky since it’s not a native Swift library, but there is a great tutorial here: https://www.hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset. Get fancy with buttons, images and animations. 
+**[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)** - Empty table views are bad, ugly, and uninformative. This library fixes all of those issues by handling the “empty table state”. In my opinion handling the blank state is the single best way to elevate the usability and design of your app. Unfortunately, set up is a little tricky since it’s not a native Swift library, but there is a great tutorial **[here](https://www.hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset)**. Get fancy with buttons, images and animations. 
 
 **[Former](https://github.com/ra1028/Former)** - Most apps will need user input that requires more than a simple text input at some point or another. User signups and creating a new post are two common examples.  Laying out a form by hand is time consuming and clunky to adapt for all screen sizes 
 Former makes it easy to create forms to collect this input. it comes with many useful animated “rows” such as DatePicker and Slider. 
 
 **[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)** - A well-designed and easy to use alert for iOS that makes it easy to present a user with choices, alerts, errors, etc. Also does text input. 
 
+## Design
 
+Your iOS app is **UGLY**. And if it doesn’t exist yet it will be. Apologize to the design gods for your sins. The worst mistake beginning mobile designers make is not taking the time to understand the design principles and conventions specific to iOS design. Take the time to go through the apps you use on a daily basis (ignore Facebook and snapchat) and think about their interaction patterns, UI elements and UX flow. Apple’s own apps are a good place to start. Study iOS UI components like table views, collection views, pickers, buttons, segmented controller and formulate patterns about when it’s necessary to use each one. 
 
+##### Recommended Reading
+https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/
 
+##### Inspiration
+Especially as a beginner, your collection of inspiration is the most important indicator of how successful your designs will be. Similar to utilizing open-source libraries, there is no point in reinventing the wheel when the collective community has put in millions of hours into exploring effective mobile UI design. 
+
+Here are three places to start:
+* **[Pinterest1](https://www.pinterest.com/emxpi/ios-inspiration/)**
+* **[Behance](https://www.behance.net/search?field=132&content=projects&sort=appreciations&time=month&user_tags=972119)**
+* **[Pinterest2](https://www.pinterest.com/severinerx/ios-inspiration/)**
+
+Don’t be afraid to directly copy elements from these inspiration grids. Originality will come in time with practice. 
+
+##### Tools
+Sketch has everything you need and is tailored to this type of UI design. Ask Tim for a license if you'd like one. 
+
+##### Mockups
+I’ve found for presentations and mockups placing your designs in an iPhone render. Here’s a good, free example: http://www.pixeden.com/psd-mock-up-templates/iphone-6-psd-vector-mockup
+
+##### Icons
+Prepo is a free app that automatically takes your icon and exports it in all the appropriate sizes. Saves a ton of annoying photoshop/sketch exports. 
 
 
