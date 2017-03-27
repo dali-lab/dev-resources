@@ -1,4 +1,4 @@
-# (Almost) Everything you need to be an Swift iOS developer 
+# (Almost) Everything you need to know to be a Swift iOS developer 
 
 I’ve only included the essentials in this guide. There is certainly more to say about each topic, but after 2 years of iOS development, these are the ideas that I feel are most important.
 
@@ -32,7 +32,7 @@ Merging swift files is the same as merging any other code-based project. The one
 [Here](https://www.natashatherobot.com/swift-debugging/) is a good tutorial about debugging that will save you much more time than it takes to read. 
 
 ##### Tips
- * You can actually add breakpoints to your code AFTER you’ve deployed it to the simulator or to your device. This allows you to print out variables in the console with 'po' without having to put print statements in your code and re-compile. When you’re dealing with 1min+ compile times this will save you hours of dev time. 
+ * You can actually add breakpoints to your code AFTER you’ve deployed it to the simulator or to your device. This allows you to print out variables in the console with 'po' without having to put print statements in your code and re-compiling. When you’re dealing with 1min+ compile times this will save you hours of dev time. 
 
  * For some reason Xcode 8 spits out tons of garbage in the console for no reason. Disable it by following the instructions from the top answer [here](http://stackoverflow.com/questions/37800790/hide-strange-unwanted-xcode-8-logs)
 
