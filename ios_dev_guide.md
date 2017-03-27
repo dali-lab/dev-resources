@@ -4,11 +4,11 @@ I’ve only included the essentials in this guide. There is certainly more to sa
 
 ## Getting Started
 
-### Tutorial
+### Tutorials
 
-I got started with the **[Lynda.com iOS tutorial](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. These two will give you a good introduction to both Swfit and iOS development. To save a bit of tim The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
+I got started with the **[Lynda.com iOS tutorial](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. These two will give you a good introduction to both Swfit and iOS development. The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
 
-https://www.raywenderlich.com is also an excellent source of written tutorials. 
+https://www.raywenderlich.com is also an excellent source of written iOS tutorials. 
 
 ### XCode and Setup
 
@@ -43,6 +43,15 @@ Be careful when renaming/removing variables that are attached to storyboards via
 
 ##### Be safe! (Un)Wrap it up!
 Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide considerable code cleanliness improvements over ‘if let’.  
+
+##### Multiple storyboard
+
+There are many benefits that come with breaking apart your storyboard files
+* Better organization, reduces clutter
+* Circumvents nasty storyboard merge conflicts
+* Multiple people can simultaneously work on UI
+
+**[Here](https://www.newventuresoftware.com/blog/organizing-xcode-projects-using-multiple-storyboards)** is a tutorial that illustrates this process.
 
 #### Segues
 
