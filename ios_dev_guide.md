@@ -12,9 +12,9 @@ Here's the screen layout the has worked for me:
 
 TODO: Insert picture
 
-Xcode also has a really nice git interface that’s easy to use and can help you handle commits and merges. Get started with that in the ‘Source Control’ menu. 
+Xcode also has a really nice git interface that’s easy to use and can help you handle commits and merges. Get started with that in the 'Source Control' menu. 
 
-Merging: Merging swift files is the same as merging any other project. The one aspect of iOS dev git flow you need to be careful about is storyboard merge conflicts. The graphical elements of the storyboard is translated into code which is then 
+Merging: Merging swift files is the same as merging any other code-based project. The one aspect of iOS dev git flow you need to be careful about is storyboard merge conflicts. The graphical elements of the storyboard are translated into a markup language that is very difficult to debug. To circumvent this problem I would recommend not having more than one person working on a given storyboard file at a time. This is one of the best reasons to break apart your application into multiple storyboard files. 
 
 ##### Commonly used shortcuts;
  * cmd + r to build. Faster than physically hunting for the play button each time.
@@ -30,13 +30,13 @@ Hot top: You can actually add breakpoints to your code AFTER you’ve deployed i
 
 For some reason Xcode 8 spits out tons of garbage in the console for no reason. Disable it by following the instructions from the top answer [here](http://stackoverflow.com/questions/37800790/hide-strange-unwanted-xcode-8-logs)
 
+## Code
+
 ### Misc advice
 
 Be careful when renaming/removing variables that are attached to storyboards via IBOutlets! If the connection is not also removed your app will crash and you will get a very cryptic “key" error that will take you hours to debug if you haven’t seen it before.
 
 Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide considerable code cleanliness improvements over ‘if let’.  
-
-## Code
 
 #### Segues
 
@@ -60,5 +60,36 @@ if let destinationVC = mainStoryboard.instantiateViewController(withIdentifier: 
   //or use "myNavController.pushViewController(destinationVC, animated: true)” when you’re in a navigation stack 
 }
 ```
+
+## External Libraries and Cocoapods
+
+One word: Cocoapods. If you didn’t know about cocoapods, you’re welcome. Cocoapods gives you easy access to the wealth of open-source libraries available for native iOS development. Get started with the guide here
+
+Tips
+* If you’re having trouble understanding how to use a library, download the example app on the library's GitHub page and play around with that in Xcode to see how it works. 
+* Sometimes after running pod install Xcode won’t recognize the new library until you run a clean (shift + command + k or Product -> Clean)
+
+### Swift Cocoapods
+
+https://github.com/matteocrippa/awesome-swift
+
+This page is your best friend. Bookmark it, immediately. This page makes it easy to find perfect cocoa pod extensions for your application. There are so many wonderful open-source libraries to use it almost feels like you're at a candy store where everything is free. Before spending a significant amount of time write code for any feature, consult this page to see if someone else has already written it for you (hint: they probably have). 
+
+Here are the essentials (aka non-optional for most projects):
+
+**[Alamofire](https://github.com/Alamofire/Alamofire)** - HTTP networking (get, post, etc) in Swift. Basically the industry standard. Use it, learn it, love it. 
+
+**[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON) - Parse and handle JSON. Handles optionals elegantly. Use this library in conjunction with responses generated from Alamofire. 
+
+**[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)** - Empty table views are bad, ugly, and uninformative. This library fixes all of those issues by handling the “empty table state”. In my opinion handling the blank state is the single best way to elevate the usability and design of your app. Unfortunately, set up is a little tricky since it’s not a native Swift library, but there is a great tutorial here: https://www.hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset. Get fancy with buttons, images and animations. 
+
+**[Former](https://github.com/ra1028/Former)** - Most apps will need user input that requires more than a simple text input at some point or another. User signups and creating a new post are two common examples.  Laying out a form by hand is time consuming and clunky to adapt for all screen sizes 
+Former makes it easy to create forms to collect this input. it comes with many useful animated “rows” such as DatePicker and Slider. 
+
+**[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)** - A well-designed and easy to use alert for iOS that makes it easy to present a user with choices, alerts, errors, etc. Also does text input. 
+
+
+
+
 
 
