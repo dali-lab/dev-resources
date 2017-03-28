@@ -6,7 +6,7 @@ I’ve only included the essentials in this guide. There is certainly more to sa
 
 ### Tutorials
 
-I got started with the **[Lynda.com iOS tutorial](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. These two will give you a good introduction to both Swfit and iOS development. The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
+I got started with the **[Lynda.com iOS tutorials](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. Will give you a good introduction to both Swfit and iOS development. The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
 
 https://www.raywenderlich.com is also an excellent source of written iOS tutorials. 
 
@@ -42,7 +42,7 @@ Merging swift files is the same as merging any other code-based project. The one
 Be careful when renaming/removing variables that are attached to storyboards via IBOutlets! If the connection is not also removed your app will crash and you will get a very cryptic “key" error that will take you hours to debug if you haven’t seen it before.
 
 ##### Be safe! (Un)Wrap it up!
-Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide considerable code cleanliness improvements over ‘if let’.  
+Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide code style improvements over ‘if let’.  
 
 ##### Multiple storyboard
 
@@ -97,12 +97,12 @@ Here are the essentials (aka non-optional for most projects):
 
 **[SwiftyJSON](https://github.com/SwiftyJSON/SwiftyJSON)** - Parse and handle JSON. Handles optionals elegantly. Use this library in conjunction with responses generated from Alamofire. 
 
-**[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)** - Empty table views are bad, ugly, and uninformative. This library fixes all of those issues by handling the “empty table state”. In my opinion handling the blank state is the single best way to elevate the usability and design of your app. Unfortunately, set up is a little tricky since it’s not a native Swift library, but there is a great tutorial **[here](https://www.hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset)**. Get fancy with buttons, images and animations. 
+**[DZNEmptyDataSet](https://github.com/dzenbot/DZNEmptyDataSet)** - Empty table views are bad, ugly, and uninformative. This library fixes all of those issues by handling the “empty table state”. In my opinion handling the blank state is the single best investment you can make to elevate the usability and design of your app. Unfortunately, set up is a little tricky since it’s not a native Swift library, but there is a great tutorial **[here](https://www.hackingwithswift.com/example-code/libraries/how-to-make-empty-uitableviews-look-more-attractive-using-dznemptydataset)**. Get fancy with buttons, images and animations. 
 
-**[Former](https://github.com/ra1028/Former)** - Most apps will need user input that requires more than a simple text input at some point or another. User signups and creating a new post are two common examples.  Laying out a form by hand is time consuming and clunky to adapt for all screen sizes 
-Former makes it easy to create forms to collect this input. it comes with many useful animated “rows” such as DatePicker and Slider. 
+**[Former](https://github.com/ra1028/Former)** - Most apps will need user input that requires more than a simple text input at some point or another. User signups and creating a new posts are two common examples. However, laying out a form by hand is time consuming and clunky to adapt for all screen sizes. 
+Former makes it easy to create forms to collect this input. it comes with many useful animated "rows" such as DatePicker and Slider. 
 
-**[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)** - A well-designed and easy to use alert for iOS that makes it easy to present a user with choices, alerts, errors, etc. Also does text input. 
+**[SCLAlertView](https://github.com/vikmeup/SCLAlertView-Swift)** - A well-designed and easy to use alert for iOS that makes it easy to present a user with choices, alerts, errors, etc. Also handles text input. 
 
 ## Design
 
