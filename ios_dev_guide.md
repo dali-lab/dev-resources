@@ -44,7 +44,7 @@ Be careful when renaming/removing variables that are attached to storyboards via
 ##### Be safe! (Un)Wrap it up!
 Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide code style improvements over ‘if let’.  
 
-##### Multiple storyboard
+##### Multiple storyboards
 
 There are many benefits that come with breaking apart your storyboard files
 * Better organization, reduces clutter
