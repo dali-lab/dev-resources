@@ -1,4 +1,4 @@
-# (Almost) Everything you need to know to be a Swift iOS developer 
+# A DALI guide - iOS Development Resources
 
 I’ve only included the essentials in this guide. There is certainly more to say about each topic, but after 2 years of iOS development, these are the ideas that I feel are most important.
 
