@@ -78,7 +78,7 @@ if let destinationVC = mainStoryboard.instantiateViewController(withIdentifier: 
 
 ## External Libraries and Cocoapods
 
-##### Cocoapods
+##### [Cocoapods](https://cocoapods.org)
 If you didn’t know about cocoapods, you’re welcome. Cocoapods gives you easy access to the wealth of open-source libraries available for native iOS development. Get started with the guide here
 
 ##### Tips
@@ -106,7 +106,7 @@ Former makes it easy to create forms to collect this input. it comes with many u
 
 ## Design
 
-Your iOS app is **UGLY**. And if it doesn’t exist yet it will be. Apologize to the design gods for your sins. The worst mistake beginning mobile designers make is not taking the time to understand the design principles and conventions specific to iOS design. Take the time to go through the apps you use on a daily basis (ignore facebook and snapchat) and think about their interaction patterns, UI elements and UX flow. Apple’s own apps are a good place to start. Study iOS UI components like table views, collection views, pickers, buttons, segmented controllers, and formulate patterns about when it’s necessary to use each one. 
+Your iOS app is *ugly*. And if it doesn’t exist yet it will be. Apologize to the design gods for your sins. The worst mistake beginning mobile designers make is not taking the time to understand the design principles and conventions specific to iOS design. Take the time to go through the apps you use on a daily basis (ignore facebook and snapchat) and think about their interaction patterns, UI elements and UX flow. Apple’s own apps are a good place to start. Study iOS UI components like table views, collection views, pickers, buttons, segmented controllers, and formulate patterns about when it’s necessary to use each one. 
 
 ##### Recommended Reading
 https://developer.apple.com/ios/human-interface-guidelines/overview/design-principles/
@@ -122,12 +122,12 @@ Here are three places to start:
 Don’t be afraid to directly copy elements from these inspiration grids. Originality will come in time with practice. 
 
 ##### Tools
-Sketch has everything you need and is tailored to this type of UI design. Ask Tim for a license if you'd like one. 
+**[Sketch](https://www.sketchapp.com)** has everything you need and is tailored to this type of UI design. Ask Tim for a license if you'd like one. 
 
 ##### Mockups
 I’ve found for presentations and mockups placing your designs in an iPhone render. Here’s a good, free example: http://www.pixeden.com/psd-mock-up-templates/iphone-6-psd-vector-mockup
 
 ##### Icons
-Prepo is a free app that automatically takes your icon and exports it in all the appropriate sizes. Saves a ton of annoying photoshop/sketch exports. 
+**[Prepo](https://itunes.apple.com/us/app/prepo/id476533227?mt=12)** is a free app that automatically takes your icon and exports it in all the appropriate sizes. Saves a ton of annoying photoshop/sketch exports. 
 
 
