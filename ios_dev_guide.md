@@ -6,7 +6,7 @@ I’ve only included the essentials in this guide. There is certainly more to sa
 
 ### Tutorials
 
-I got started with the **[Lynda.com iOS tutorials](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. These tutorials will give you a good introduction to both Swfit and iOS development. The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
+I got started with the **[Lynda.com iOS tutorials](https://www.lynda.com/learning-paths/Developer/become-an-ios-10-app-developer)**. These tutorials will give you a good introduction to both Swift and iOS development. The rest will come through your own hacking with liberal use of Stack Overflow. I've found it helpful to tack on 'Swift' at the beginning of all google searches ensure the results are appropriate. 
 
 https://www.raywenderlich.com is also an excellent source of written iOS tutorials. 
 
@@ -14,6 +14,8 @@ https://www.raywenderlich.com is also an excellent source of written iOS tutoria
 
 ##### Screen
 Use an external monitor! Xcode uses multiple panes and inspector windows that quickly crowd your actual coding space. Using a large external monitor will alleviate this issue and speed up your workflow considerably. I would also recommend liberal use of the assistant editor as it allows you to have two files open at once. 
+
+<img src="imgs/xcode_assistant.png" width=50%>
 
 ##### Source Control
 Xcode also has a really nice git interface that’s easy to use and can help you handle commits and merges. Get started with that in the 'Source Control' menu. 
@@ -41,8 +43,12 @@ Merging swift files is the same as merging any other code-based project. The one
 ##### IBOutlets
 Be careful when renaming/removing variables that are attached to storyboards via IBOutlets! If the connection is not also removed your app will crash and you will get a very cryptic “key" error that will take you hours to debug if you haven’t seen it before.
 
+<img src="imgs/xcode_iboutlet.png" width=75%>
+
 ##### Be safe! (Un)Wrap it up!
 Unwrapping options (using !) is very dangerous. I know they’re tempting to use since they cut down on the amount of code you have to write. Unwrap with extreme caution and err on the safe side. On that note, learn when to use the ‘guard’ statement to unwrap as it can provide code style improvements over ‘if let’.  
+
+**[Here](https://ericcerney.com/swift-guard-statement/)** is a very concise tutorial about if-let and guard statements. 
 
 ##### Multiple storyboards
 
