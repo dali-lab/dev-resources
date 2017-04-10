@@ -22,7 +22,7 @@ I'll explain in a bit more detail here.
 
 ## Adding to the Termly Google Group
 - the script will also add the newly created email to the termly Google group via the following method
-  - anywhere from week 3 over 17W to week 3 of 17S, someone filling out this form will be added to the 17S@dali.dartmouth.edu group. this obviously extends to later terms
+  - anywhere from week 3 of 17W to week 3 of 17S, someone filling out this form will be added to the 17S@dali.dartmouth.edu group. this obviously extends to later terms
 - note:
   - the script pulls the current term from the [DALI Lab Hours](https://docs.google.com/spreadsheets/d/1thFB3xyX5wVN9gdz_K0pk3fUjwLxXIWyJ_rlK7A4TYg/edit#gid=188556850) spreadsheet. make sure this is updated!
 
