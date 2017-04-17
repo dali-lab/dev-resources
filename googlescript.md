@@ -4,8 +4,8 @@ Author: Pat Xu
 At the start of each term we onboard anywhere from a few to a few dozen people. I wrote a couple Google Apps Scripts to help speed up this process. Read on to learn how to use the various tools.
 
 ## Table of Contents
-- [Onboarding](#Onboarding)
-- [Meeting Form](#Meeting-Form)
+- [Onboarding](#onboarding)
+- [Meeting Form](#meeting-form)
 
 Developers, [here's](./googlescript-dev.md) a resource for you.
 
