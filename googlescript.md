@@ -43,8 +43,9 @@ There's also a script to help make the [meeting form/log](https://docs.google.co
 ### Quick Start
 1. view the script by going to Tools>Script Editor in the spreadsheet
 1. the script pulls responses from the form (specified via form id)
-  - make sure to keep the main form questions the same – the script pulls responses based on the name of the meeting date, start/end times, and project name
+    - make sure to keep the main form questions the same – the script pulls responses based on the name of the meeting date, start/end times, and project name
 1. the script creates a menu item in the spreadsheet
-  ![](imgs/spreadsheet-menu.png)
-  - use **Refresh DALI Meetng Data** to create a new sheet for each team that has meeting and attendance data
-  - use **Clear Sheets** to remove all sheets except for the original one. note: refreshing the sheets will automatically remake all the sheets
+    ![](imgs/spreadsheet-menu.png)
+    - use **Refresh DALI Meetng Data** to create a new sheet for each team that has meeting and attendance data
+    - use **Clear Sheets** to remove all sheets except for the original one. note: refreshing the sheets will automatically remake all the sheets
+    ![](imgs/spreadsheet-sheets.png)
