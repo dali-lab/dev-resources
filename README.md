@@ -50,6 +50,9 @@ Note: any `code blocks` are things that should be run in iTerm
     - [starter howto](http://cs52.me/assignments/hw5p1/)
     - [starter repo](https://github.com/dartmouth-cs52/express-babel-starter)
 
+- Flask
+  - [starter repo](https://github.com/jason-feng/flask-api-starter-app)
+
 ## Additional Tools:
 
 - Square's Vim and Tmux [Config Files]( https://github.com/square/maximum-awesome)
