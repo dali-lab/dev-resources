@@ -33,8 +33,7 @@ Window management involves efficiently organizing the windows you have open on y
 
 Does this look familiar?
 
-<img src="imgs/window-management-bad.png" width=320px>
-<img src="imgs/window-management-bad2.png" width=320px>
+<img src="imgs/window-management-bad.png" width=320px> <img src="imgs/window-management-bad2.png" width=320px>
 
 It's incredibly inefficient to work in an environment when you constantly have to go to click through various windows or to use windows that are smaller than they could be (e.g. Xcode, which has a lot of UI elements, should pretty much always be fullscreen).
 
@@ -45,8 +44,7 @@ Spectacle is a desktop app that makes window movement and resizing easy. It hide
 
 Here's a demo of me using it only a couple minutes after downloading it (I use a different resizing tool, which I link below).
 
-<img src="imgs/spectacle.png" height=320>
-<img src="imgs/spectacle-demo.gif" height=320px>
+<img src="imgs/spectacle.png" height=320> <img src="imgs/spectacle-demo.gif" height=320px>
 
 In a few seconds, I've full screened Chrome, moved my iTerm windows to the upper left and upper right corners of the screen, and moved Atom to the left half of the screen.
 
