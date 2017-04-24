@@ -59,6 +59,42 @@ This is a much better Terminal command line than the default Terminal.app that c
   </details>
 
 
+### Customizing Your Prompt
+
+Next, we'll change the color of your command prompt (the line that you type on in iTerm)
+
+<details>
+<summary>Difficult to pick out the prompt</summary>
+<img src="imgs/terminal-prompt-bad.png" width=600px>
+</details>
+
+
+<details>
+<summary>Much easier!</summary>
+<img src="imgs/terminal-prompt-good.png" width=600px>
+</details>
+
+If you know that your prompt is a color (red) other than the usual text color, it's much easier to pick out the commands you've entered.
+
+1. Open up your `.bash_profile`
+  - `atom ~/.bash_profile`
+
+2. Copy paste these lines in
+
+  ```
+  ###### Custom Prompt
+  RED="\[$(tput setaf 1)\]"
+  RESET="\[$(tput sgr0)\]"
+  export PS1="$RED\W $ $RESET"
+  ```
+
+3. Open a new terminal window!
+4. Continue to customize your prompt as you see fit
+  - [adding basic information into your prompt](http://ezprompt.net/)
+  - [adding git information](https://coderwall.com/p/fasnya/add-git-branch-name-to-bash-prompt)
+  - [here's my full prompt](https://github.com/patxu/dotfiles/blob/master/bash/login/.bash_profile)
+
+
 ## Git
 Git is the source control framework that powers Github. Source control is essential as projects grow in size and you work in a team bigger than one. You'll use git to save your work and merge your work with your teammates/coworkers. Finally, Github provides an nice web interface for git and lets you do things like track project progress, jot down issues, and view collaborators. Here's an overview image:
 
