@@ -1,4 +1,4 @@
-# DALI Dev Tools
+# DALI Dev Tools blah
 
 A resource for devs looking to learn dev essentials like: making full use of your terminal, setting up your text editor with all the right addons, mastering git/Github, and efficiently using your screen space.
 
