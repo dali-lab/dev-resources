@@ -2,18 +2,23 @@
 
 A resource for devs looking to learn dev essentials like: making full use of your terminal, setting up your text editor with all the right addons, mastering git/Github, and efficiently using your screen space.
 
-## Topics
+The common theme across the topics covered here is using your tools efficiently and effectively. You'll start using your keyboard more and your mouse less, making your faster and more precise. You'll be a better developer by being able to collaborate more effectively. 
 
+## Topics
 - [Terminal](#terminal)
 - [Git](#git)
 - [Window Management](#window-management)
 
+## Goals
+By the end of this, you should have done or be able to:
+- create panes and tabs in terminal with a colors command prompt
+- use git proficiently – add, commit, push, pull, and pull requests
+- move, resize, and switch open applications from the keyboard
 
 ## Before Starting
 Download:
 - [iTerm2](http://iterm2.com) – a better Terminal alternative
 - [Spectacle](https://www.spectacleapp.com/) – a window management tool
-
 
 ## Terminal
 You'll use the terminal in any and every developer position. From running a server, to using git, to installing packages, having command over your terminal will make you more efficient.
@@ -105,13 +110,12 @@ Here's a [basic tutorial](https://try.github.io/) that is beginner-friendly and 
   - `git commit`
   - `git push`
 
-There's also a [full guide](https://github.com/dali-lab/gitivity) written previously for DALI. The advanced section covers important topics like
-  - `git rebase`
-  - pull requests
+This is a [resource](https://www.thinkful.com/learn/github-pull-request-tutorial/Time-to-Submit-Your-First-PR#Time-to-Submit-Your-First-PR) that covers pull requests.
 
 ### Other Resources
 - [Intermediate Tutorial](http://rogerdudler.github.io/git-guide/) – another which is less interactive but is still easy to follow and talks about some good commands
 - [using Keychain to store your Github credentials](https://help.github.com/articles/caching-your-github-password-in-git/) – clone with HTTPS and save your credentials using MacOS Keychain
+- [full git guide](https://github.com/dali-lab/gitivity) – written previously for DALI. the advanced section covers important topics like rebasing
 
 
 ## Window Management
