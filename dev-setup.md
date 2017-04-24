@@ -2,7 +2,7 @@
 
 A resource for devs looking to learn dev essentials like: making full use of your terminal, setting up your text editor with all the right addons, mastering git/Github, and efficiently using your screen space.
 
-The common theme across the topics covered here is using your tools efficiently and effectively. You'll start using your keyboard more and your mouse less, making your faster and more precise. You'll be a better developer by being able to collaborate more effectively. 
+The common theme across the topics covered here is using your tools efficiently and effectively. You'll start using your keyboard more and your mouse less, making your faster and more precise. You'll be a better developer by being able to collaborate more effectively.
 
 ## Topics
 - [Terminal](#terminal)
@@ -103,7 +103,7 @@ If you know that your prompt is a color (red) other than the usual text color, i
 ## Git
 Git is the source control framework that powers Github. Source control is essential as projects grow in size and you work in a team bigger than one. You'll use git to save your work and merge your work with your teammates/coworkers. Finally, Github provides an nice web interface for git and lets you do things like track project progress, jot down issues, and view collaborators. Here's an overview image:
 
-![](https://camo.githubusercontent.com/d0ff2f3fa89d83ca766c0cfda46f1a8fb8b3d995/687474703a2f2f692e737461636b2e696d6775722e636f6d2f4d676156392e706e67)
+![](imgs/git.png)
 
 Here's a [basic tutorial](https://try.github.io/) that is beginner-friendly and will get you up started. This will cover things like
   - `git add`
