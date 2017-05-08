@@ -1,5 +1,7 @@
 # DALI Dev Tools
 
+##### A guide to a variety of tools that are helpful for devs to improve their workflow
+
 A resource for devs looking to learn dev essentials like: making full use of your terminal, setting up your text editor with all the right addons, mastering git/Github, and efficiently using your screen space.
 
 The common theme across the topics covered here is using your tools efficiently and effectively. You'll start using your keyboard more and your mouse less, making your faster and more precise. You'll be a better developer by being able to collaborate more effectively.
