@@ -45,12 +45,12 @@ Note: any `code blocks` are things that should be run in iTerm
 
 - React/Webpack/Babel/Eslint
   - this is a small from scratch starter for react frontend projects
-    - [starter howto]( http://cs52.me/assignments/sa4/)
+    - [starter howto](http://cs52.me/assignments/sa/react-videos/)
     - [starter repo](https://github.com/dartmouth-cs52/js-react-starter)
 
 - Expressjs/Mongo/Babel/Eslint
   - this is a small from scratch starter project for javascript backends
-    - [starter howto](http://cs52.me/assignments/hw5p1/)
+    - [starter howto](http://cs52.me/assignments/sa/server-side/)
     - [starter repo](https://github.com/dartmouth-cs52/express-babel-starter)
 
 - Flask
