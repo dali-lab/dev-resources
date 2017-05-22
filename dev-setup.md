@@ -118,6 +118,8 @@ This is a [resource](https://www.thinkful.com/learn/github-pull-request-tutorial
 - [Intermediate Tutorial](http://rogerdudler.github.io/git-guide/) – another which is less interactive but is still easy to follow and talks about some good commands
 - [using Keychain to store your Github credentials](https://help.github.com/articles/caching-your-github-password-in-git/) – clone with HTTPS and save your credentials using MacOS Keychain
 - [full git guide](https://github.com/dali-lab/gitivity) – written previously for DALI. the advanced section covers important topics like rebasing
+- [better git log](https://coderwall.com/p/euwpig/a-better-git-log) – a more efficient, prettier, and descriptive git log
+![better git log](http://i.imgur.com/tSgaU.jpg)
 
 
 ## Window Management
