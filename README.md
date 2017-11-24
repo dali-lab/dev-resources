@@ -7,7 +7,7 @@ Table of Contents
 
   * [Developer Setup and Tools](./dev-setup.md)
   * [Additional Dev Resources](./additional-resources.md)
-  * [iOS developer guide](./ios_dev_guide)
+  * [iOS developer guide](./ios_dev_guide.md)
   * [Making a slack bot](./slack_bot.md)
   * [Becoming familiar with git](https://github.com/dali-lab/gitivity)
   * [Setting up Travis CI for automating tests in your code base](./travis.md)
