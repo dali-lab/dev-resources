@@ -1,4 +1,8 @@
-# Unity GIT Best Practices
+# Unity Resources and Best Practices
+
+
+
+## Unity with GIT
 
 Follow: https://robots.thoughtbot.com/how-to-git-with-unity
 
